@@ -1,0 +1,8 @@
+{% if site.safe and site.timeship.sharing.provider and page.timeship.sharing != false %}
+
+{% case site.timeship.sharing.provider %}
+{% when "custom" %}
+  {% include custom/sharing %}
+{% endcase %}
+
+{% endif %}

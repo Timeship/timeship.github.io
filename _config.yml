@@ -7,13 +7,13 @@ pygments: true
 paginate: 4
 
 # 修改为自己的配置
-title : 隐匿于黑夜中的星
-tagline: 时间的回响，思维的残影
+title : 时光旅行六千里
+tagline: 所有的生活都是合理的，我们没有必要互相理解 
 author :
-  name : codepiano
-  email : anyexingchen999@qq.com
-  github : https://github.com/codepiano
-  twitter : http://twitter.com/anyexingchen
+  name : timeship
+  email : leonwowo@gmail.com
+  github : https://github.com/timeship
+  twitter : http://twitter.com/timeship
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -24,13 +24,13 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 # 博客地址，如果没有自定义CNAME，写用户名即可
-production_url : http://blog.codepiano.com
+production_url : timeship
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 # 我使用我的id作为了这个属性的属性名
-# 如果你想修改，最好使用替换工具，把所有文件中的"codepiano"，替换为你想要的名字
+# 如果你想修改，最好使用替换工具，把所有文件中的"timeship"，替换为你想要的名字
 # 然后重命名以我的id为名的所有文件和目录
-codepiano :
+timeship :
   version : 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
@@ -84,9 +84,9 @@ codepiano :
   comments :
     provider : duoshuo
     disqus :
-      short_name : codepiano
+      short_name : timeship
     duoshuo :
-      short_name : codepiano
+      short_name : timeship
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
