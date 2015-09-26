@@ -82,7 +82,7 @@ timeship :
   # 修改评论服务设置，short_name修改为你的disque账户名
   # 如果想自定义评论服务提供商，请自行google
   comments :
-    provider : duoshuo
+    provider : false
     disqus :
       short_name : timeship
     duoshuo :
@@ -94,7 +94,7 @@ timeship :
   # 修改google分析工具的id       
   # 如果想自定义分析服务提供商，请自行google
   analytics :
-    provider : google 
+    provider : false 
     google : 
         tracking_id : 'UA-40934298-1'
 
